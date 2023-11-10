@@ -8,9 +8,6 @@ Created on Fri Nov 10 11:44:45 2023
 import numpy as np
 import matplotlib.pyplot as plt
 
-
-
-
 n = 3333
 px = 3.6e-6
 
@@ -53,19 +50,3 @@ phase2sag_text = save_phase2sag_to_file(phase2sag)
 
 with open("grid_data.dat", "w") as file:
     file.write(phase2sag_text)
-
-# #dat 파일 생성 phase to sag"
-# data = """10 10 0.036 0.036 0 0 0
-# 1 0 0 0 0
-# 0 0 0 0 0
-# 1 0 0 0 0
-# 1 0 0 0 0
-# 0 0 0 0 0
-# 1 0 0 0 0
-# 1 0 0 0 0
-# 1 0 0 0 0
-# 0 0 0 0 0
-# 1 0 0 0 0"""
-
-# with open("data.dat", "w") as file:
-#     file.write(data)
