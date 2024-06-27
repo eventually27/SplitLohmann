@@ -8,3 +8,6 @@ log.txt
 *.dll
 *.pyc
 
+*.dat
+cpp_design.ZDA
+cpp_design.zos
